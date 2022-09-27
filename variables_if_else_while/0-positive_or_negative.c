@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * function_name - Short description, single line
+ * main - Short description, single line
  * @void: Description of parameter x
  * Description: Longer description of the function)?
  * Return: 0
