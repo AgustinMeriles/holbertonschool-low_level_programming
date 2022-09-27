@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * function_name - Short description, single line
  * @void: Description of parameter x
