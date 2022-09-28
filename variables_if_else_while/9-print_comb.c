@@ -11,7 +11,7 @@ int pos;
 for (pos = '0'; pos <= '9'; pos++)
 {
 putchar (pos);
-if (putchar < '9')
+if (pos != '9')
 putchar (", ");
 }
 putchar ('\n');
