@@ -13,10 +13,8 @@ char abc;
 for (abc = 'a'; abc <= 'z'; abc++)
 putchar(abc);
 putchar('\n');
-
-char ABC;
-for (ABC = 'A'; ABC <= 'Z'; ABC++)
-putchar(ABC);
+for (abc = 'A'; abc <= 'Z'; abc++)
+putchar(abc);
 putchar('\n');
 return (0);
 }
