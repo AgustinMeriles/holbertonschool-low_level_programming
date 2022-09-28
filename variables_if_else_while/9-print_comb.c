@@ -12,7 +12,8 @@ for (pos = '0'; pos <= '9'; pos++)
 {
 putchar (pos);
 if (pos != '9')
-putchar (", ");
+putchar (',');
+putchar (' ');
 }
 putchar ('\n');
 return (0);
