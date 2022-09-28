@@ -10,8 +10,8 @@
 int main(void)
 {
 char abc, q, e;
-e = "e";
-q = "q";
+e = 'e';
+q = 'q';
 for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc != q && abc != e)
