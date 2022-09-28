@@ -9,10 +9,15 @@
  */
 int main(void)
 {
-char abc;
+char abc, q, e;
+e = "e";
+q = "q";
+
 for (abc = 'a'; abc <= 'z'; abc++)
+{
 if (abc != q && abc != e)
 putchar(abc);
+}
 putchar('\n');
 return (0);
 }
