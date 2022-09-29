@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_alphabet - Short description, single line
  * @void: Description of parameter x
