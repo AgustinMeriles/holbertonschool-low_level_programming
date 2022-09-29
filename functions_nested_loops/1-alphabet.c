@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <main.h>
 /**
  * print_alphabet - Short description, single line
  * @void: Description of parameter x
@@ -9,9 +10,9 @@
  */
 int print_alphabet(void)
 {
-	char abc;
-	for (abc = 'a'; abc <= 'z'; abc++)
-		_puthcar(abc);
-		_putchar('\n');
-	return (0);
+char abc;
+for (abc = 'a'; abc <= 'z'; abc++)
+_puthcar(abc);
+_putchar('\n');
+return (0);
 }
