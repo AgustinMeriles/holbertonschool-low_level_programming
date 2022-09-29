@@ -12,7 +12,7 @@ int main(void)
 	{
 	char string[8] = "_putchar";
 	int pos;
-		for (pos = 0; pos < 9; pos++)
+		for (pos = 0; pos < 8; pos++)
 		putchar(string[pos]);
 		putchar('\n');
 	return (0);
