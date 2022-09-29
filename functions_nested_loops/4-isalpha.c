@@ -14,7 +14,7 @@ for (a = 'a'; a <= 'z'; a++)
 {
 for (p = 'A'; p <= 'z'; p++)
 {
-if (a == c || A == c)
+if (a == c || p == c)
 num = 1;
 }
 }
