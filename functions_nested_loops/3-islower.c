@@ -14,5 +14,5 @@ for (abc = 'a'; abc <= 'z'; abc++)
 if (abc == 'c')
 num = 1;
 }
-return (0);
+return (num);
 }
