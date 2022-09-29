@@ -11,5 +11,4 @@ char abc;
 for (abc = 'a'; abc <= 'z'; abc++)
 _puthcar(abc);
 _putchar('\n');
-return (0);
 }
