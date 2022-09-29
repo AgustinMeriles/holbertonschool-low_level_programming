@@ -11,7 +11,7 @@ char abc;
 
 	for (repeats = 0; repeats < 10; repeats++)
 {
-		for (abc = 'a'; abc < 'z'; abc++)
+		for (abc = 'a'; abc <= 'z'; abc++)
 		_putchar(abc);
 		_putchar('\n');
 }
