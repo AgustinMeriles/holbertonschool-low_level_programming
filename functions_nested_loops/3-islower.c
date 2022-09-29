@@ -11,7 +11,7 @@ char abc;
 int num = 0;
 for (abc = 'a'; abc <= 'z'; abc++)
 {
-if (abc == 'c')
+if (abc == c)
 num = 1;
 }
 return (num);
