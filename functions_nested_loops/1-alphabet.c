@@ -7,7 +7,6 @@
  * Description: Longer description of the function)?
  * Return: 0
  */
-
 int print_alphabet(void)
 {
 	char abc;
