@@ -11,6 +11,9 @@
 int main(void)
 	{
 	char string[8] = "_putchar";
-	printf(string);
+	char pos;
+		for (pos = 0; pos < 9; pos++)
+		putchar(string[pos])
+		putchar('\n')
 	return (0);
 		}
