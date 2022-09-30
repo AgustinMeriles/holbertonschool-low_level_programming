@@ -1,9 +1,9 @@
 #include "main.h"
-/*
+/**
  * print_last_digit - Short description, single line
- * @n: parameter
+ * @n: Description of parameter x
  * Description: Longer description of the function)?
- * return: 0
+ * Return: n
  */
 int print_last_digit(int n)
 {
