@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - Short description, single line
- * @n, j: Description of parameter x
+ * @n: Description of parameter n
+ * @j: Description of parameter j
  * Description: Longer description of the function)?
  * Return: n + j
  */
