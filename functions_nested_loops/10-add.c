@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * add - Short description, single line
- * @n: The first integrer to be added.
- * @j: The second integrer to be added.
- * Description: Longer description of the function)?
- * Return: The result of the nums..
- */
-int add(int n, int j)
+ *  * add - Add two input integers and makes the result between them
+ *  * @a: The first integer to be added.
+ *   * @b: The second integer to be added.
+ *    * Return: The result of the nums..
+**/
+int add(int a, int b)
 {
-	return (n + j);
+return (a + b);
 }
