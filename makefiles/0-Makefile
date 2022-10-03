@@ -1,2 +1,2 @@
 all: school.c, text.c;
-       gcc -g -c school.c text.c 	
+       gcc main.c school.c -o school 	
