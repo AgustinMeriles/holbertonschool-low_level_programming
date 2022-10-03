@@ -1,0 +1,6 @@
+CC=gcc
+SRC=msin.c school.c
+
+all:	
+	$(CC) $(SRC) -o school
+
