@@ -1,13 +1,15 @@
 #include "main.h"
+/**
+ * _isupper - Check Holberton
+ * @c: An input character
+ * Description: function that check if c is uppercase
+ * Return: 1 if "c" is uppercase or 0 if is otherwise
+ **/
 
 int _isupper(int c)
-	{
-		char abc;
-		for (abc = 'a'; abc < 'z'; abc++)
-			{
-				if (abc == 'C')
-					return(1);
-				else
-					return(0);
-			}
-	}
+{
+if (c >= 'A' && c <= 'Z')
+return (1);
+else
+return (0);
+}
