@@ -4,10 +4,9 @@
  * @a: Description of parameter x
  * @b: integrer
  * Description: Longer description of the function)?
- * Return: 0
+ * Return: (a * b)
  */
 int mul(int a, int b)
 {
-result = a * b;
-return (0);
+return (a * b);
 }
