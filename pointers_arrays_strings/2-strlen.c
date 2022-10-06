@@ -6,7 +6,7 @@
  **/
 int _strlen(char *s)
 	{
-		int i;
+		char i;
 		int contador;
 
 		contador = 0;
