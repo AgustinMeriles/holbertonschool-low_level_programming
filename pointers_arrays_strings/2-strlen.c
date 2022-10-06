@@ -6,14 +6,9 @@
  **/
 int _strlen(char *s)
 	{
-		char i;
-		int contador;
+		int a;
 
-		contador = 0;
-
-		for (i = *s; *s < '\0'; i++)
-		{
-			contador = contador + 1;
-		}
-		return (contador);
+		for (a = 0; s[a] != '\0'; a++)
+			;
+		return (a);
 	}
