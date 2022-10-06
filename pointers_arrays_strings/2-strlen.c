@@ -7,11 +7,11 @@
 int _strlen(char *s)
 	{
 		int i;
-		int contrador;
+		int contador;
 
 		for (i = 0; *s < '\0'; i++)
 		{
-			contador = i
+			contador = i;
 		}
 		return (contador);
 	}
