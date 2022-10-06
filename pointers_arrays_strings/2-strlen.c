@@ -13,7 +13,7 @@ int _strlen(char *s)
 
 		for (i = *s; *s < '\0'; i++)
 		{
-			contador++;
+			contador = contador + 1;
 		}
 		return (contador);
 	}
