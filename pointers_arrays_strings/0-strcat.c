@@ -11,7 +11,7 @@ char *_strcat(char *dest, char *src)
 
 		lenS = strlen(src);
 		while (dest[i++])
-			len++;
+			lenD++;
 		for (i = 0; i <= lenS; i++)
 		dest[len - 1] += src[i];
 		return (dest);
