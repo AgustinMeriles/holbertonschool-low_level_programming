@@ -6,12 +6,12 @@
  * Return: 0;
  **/
 char *_strcat(char *dest, char *src)
-	{
-		int i, lenD;
+{
+int i = 0, lenD = 0;
 
-		while (dest[i++])
-			lenD++;
-		for (i = 0; src[i]; i++)
-		dest[lenD++] = src[i];
-		return (dest);
-	}
+while (dest[i++])
+lenD++;
+for (i = 0; src[i]; i++)
+dest[lenD++] = src[i];
+return (dest);
+}
