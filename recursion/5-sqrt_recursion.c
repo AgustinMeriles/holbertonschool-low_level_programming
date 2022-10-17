@@ -8,17 +8,26 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (_function(0, n));
+	return (_function(n, 0));
+}
 /**
  * _function - function;
  * @x: the parameter;
  * @n: the other parameter;
  * Return: something;
  **/
-int _function(int x, int n)
+int _function(int n, int x)
 {
-	x = 0;
+	if (x * x > n)
+	{
+		return (-1);
+	}
 	if (x * x == n)
+	{
 		return (x);
+	}
 	else
-		return (_function(x++, n));
+	{
+		return (_function(n, x + 1));
+	}
+}
