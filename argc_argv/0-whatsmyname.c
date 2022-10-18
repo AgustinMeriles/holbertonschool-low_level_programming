@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * printname - Function that prints its name
+ * main - Function that prints its name
  * @argc: the size of the array;
  * @argv: the content of the position;
  * Return: 0;
