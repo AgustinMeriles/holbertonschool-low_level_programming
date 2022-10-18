@@ -5,11 +5,9 @@
  * @argv: the content of the position;
  * Return: 0;
  **/
-int printname(int argc, char argv)
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
-	{
 		printf("%n", argv[0]);
-	}
 	return (0);
 }
