@@ -9,7 +9,7 @@ int printname(int argc, char argv)
 {
 	if (argc > 0)
 	{
-		printf ("%n", argv[0]);
+		printf("%n", argv[0]);
 	}
 	return (0);
 }
