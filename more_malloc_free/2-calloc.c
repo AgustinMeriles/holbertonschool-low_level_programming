@@ -6,15 +6,15 @@
  *  @b: constant byte
  *  Return: A pointer to the memory area s..
  **/
-char _memset(char s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	charaux = s;
-	while (n--)
+	unsigned int lok;
+
+	for (lok = 0; lok < n; lok++)
 	{
-		*s = b;
-		s++;
+		s[lok] = b;
 	}
-	return (aux);
+	return (s);
 }
 
 /**
@@ -36,6 +36,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	_memset(*pun, 0, pun);
+	_memset(pun, 0, size * nmemb);
 	return (pun);
 }
