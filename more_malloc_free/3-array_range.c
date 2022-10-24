@@ -8,18 +8,12 @@
 int *array_range(int min, int max)
 {
 	int *pun;
-	int i = 0;
 
 	if (min > max)
 	{
 		return (NULL);
 	}
-	while (min <= max)
-	{
-		i++;
-		min++;
-	}
-	pun = malloc(sizeof(int) * i + 1);
+	pun = malloc(sizeof(int) * (max - min));
 	if (pun == NULL)
 	{
 		return (NULL);
