@@ -7,20 +7,16 @@
  **/
 int *array_range(int min, int max)
 {
-	int *pun, i;
-
-	if (min > max)
-	{
-		return (NULL);
-	}
-	pun = malloc(sizeof(int) * (max - min));
-	if (pun == NULL)
-	{
-		return (NULL);
-	}
-	for (i = 0; min <= max; i++)
-	{
-		pun[i] = min++;
-	}
-	return (pun);
+int *new;
+int i;
+int size;
+if (min > max)
+return (NULL);
+size = max - min + 1;
+new = malloc(sizeof(int) * size);
+if (new == NULL)
+return (NULL);
+for (i = 0; min <= max; i++)
+new[i] = min++;
+return (new);
 }
