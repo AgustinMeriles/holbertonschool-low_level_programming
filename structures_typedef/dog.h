@@ -1,6 +1,6 @@
 #ifndef _DOG_H_
 #define _DOG_H_
-#include "main.h"
+#include <stdio.h>
 {
 	char *name;
 	float age;
