@@ -1,12 +1,10 @@
 #include "dog.h"
 #include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
 /**
  * _strdup - Duplicates a string
  * Return: The new string
  * @str: Initial String
- */
+ **/
 
 char *_strdup(char *str)
 {
