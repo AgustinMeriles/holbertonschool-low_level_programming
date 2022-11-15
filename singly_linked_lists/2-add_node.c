@@ -17,12 +17,12 @@ list_t *add_node(list_t **head, const char *str)
 	dup = strdup(str);
 	if (dup == NULL)
 	{
-		free(nuevo);
+		free(newNode);
 		return (NULL);
 	}
 	for (i = 0; i < str[i];)
 		i++;
-	newNode->str = str;
+	newNode->str = dup;
 	newNode->len = i;
 	newNode->next = *head;
 	*head = newNode;
